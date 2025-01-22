@@ -39,7 +39,6 @@ export const Footer = () => {
           <SiPicpay />
           <FaPix />
         </div>
-
       </section>
 
       <section className={s.bottom}>

@@ -18,12 +18,18 @@
 .content {
   display: flex;
   justify-content: space-between;
+  text-align: center;
   width: 100%;
-  max-width: 1200px;
   line-height: 1.5;
 
+  h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: $font-hover-color;
+    text-align: center;
+  }
+
   p {
-    width: 50%;
     font-weight: 300;
     color: $font-color;
   }
