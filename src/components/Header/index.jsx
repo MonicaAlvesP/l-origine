@@ -5,7 +5,7 @@ import { OurWines } from "../../pages/OurWines";
 import { Experience } from "../../pages/Experience";
 import { Contact } from "../../pages/Contact";
 
-import LOrigine from '../../assets/l-origine.png';
+import LOrigine from '../../assets/LOrigine.png';
 
 import s from './header.module.scss';
 
