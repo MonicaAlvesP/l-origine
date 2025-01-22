@@ -1,0 +1,210 @@
+[
+  {
+    "vinicola": "Maselva",
+    "vinho": "Empordà 2012",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "88 avaliacoes"
+    },
+    "localizacao": "Espanha · Empordà",
+    "imagem": "https://www.maselva.eu/en/pulsepro/data/img/uploads/vermell2014.png",
+    "descricao": "Um vinho tinto robusto da regiao de Empordà, com aromas de frutas vermelhas e um toque de carvalho.",
+    "preco": "R$ 380,00",
+    "id": 1
+  },
+  {
+    "vinicola": "Ernesto Ruffo",
+    "vinho": "Amarone della Valpolicella 2015",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "75 avaliacoes"
+    },
+    "localizacao": "Italia · Amarone della Valpolicella",
+    "imagem": "https://images.vivino.com/thumbs/nC9V6L2mQQSq0s-wZLcaxw_pb_x300.png",
+    "descricao": "Este Amarone apresenta sabores intensos de frutas secas, especiarias e um final prolongado e sedoso.",
+    "preco": "R$ 720,00",
+    "id": 2
+  },
+  {
+    "vinicola": "Cartuxa",
+    "vinho": "Pêra-Manca Tinto 1990",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "72 avaliacoes"
+    },
+    "localizacao": "Portugal · Alentejo",
+    "imagem": "https://images.vivino.com/thumbs/L33jsYUuTMWTMy3KoqQyXg_pb_x300.png",
+    "descricao": "Um vinho tinto iconico de Portugal, conhecido por sua complexidade e elegancia inigualaveis.",
+    "preco": "R$ 1.200,00",
+    "id": 3
+  },
+  {
+    "vinicola": "Schrader",
+    "vinho": "Cabernet Sauvignon 2016",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "72 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · Oakville",
+    "imagem": "https://images.vivino.com/thumbs/GpcSXs2ERS6niDxoAsvESA_pb_x300.png",
+    "descricao": "Um Cabernet Sauvignon vibrante com notas de cassis, cereja negra e taninos bem integrados.",
+    "preco": "R$ 1.400,00",
+    "id": 4
+  },
+  {
+    "vinicola": "Hundred Acre",
+    "vinho": "Wraith Cabernet Sauvignon 2013",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "68 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · Napa Valley",
+    "imagem": "https://images.vivino.com/thumbs/PBhGMcRNQ7aVnVNr7VgnWA_pb_x300.png",
+    "descricao": "Um vinho cheio de opulencia, com sabores profundos de frutas escuras e um toque de especiarias.",
+    "preco": "R$ 1.500,00",
+    "id": 5
+  },
+  {
+    "vinicola": "Sine Qua Non",
+    "vinho": "Rätsel Syrah N.V.",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "68 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · California",
+    "imagem": "https://images.vivino.com/thumbs/ZzMKzqFqRO-6oI3ys3gGgQ_pb_x300.png",
+    "descricao": "Um Syrah arrojado, com camadas de frutas maduras e um toque de terra e pimenta preta.",
+    "preco": "R$ 950,00",
+    "id": 6
+  },
+  {
+    "vinicola": "Del Dotto",
+    "vinho": "The Beast Cabernet Sauvignon 2012",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "60 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · Rutherford",
+    "imagem": "https://images.vivino.com/thumbs/easjTPIcS-mCQ99XoYOMgQ_pb_x300.png",
+    "descricao": "Um Cabernet Sauvignon intenso com notas de frutas escuras, chocolate amargo e baunilha.",
+    "preco": "R$ 1.100,00",
+    "id": 7
+  },
+  {
+    "vinicola": "Darioush",
+    "vinho": "Darius II Cabernet Sauvignon 2016",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "59 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · Napa Valley",
+    "imagem": "https://images.vivino.com/thumbs/U19RXtSdRMmoAesl2CBygA_pb_x300.png",
+    "descricao": "Um vinho sofisticado com camadas de frutas maduras, especiarias e um final elegante.",
+    "preco": "R$ 1.450,00",
+    "id": 8
+  },
+  {
+    "vinicola": "Garbole",
+    "vinho": "Hurlo 2009",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "55 avaliacoes"
+    },
+    "localizacao": "Italia · Veneto",
+    "imagem": "https://images.vivino.com/thumbs/f_G1SS0eT_C6hZGGwdEZqA_pb_x300.png",
+    "descricao": "Um vinho complexo e refinado, com sabores de frutas vermelhas maduras e especiarias italianas.",
+    "preco": "R$ 850,00",
+    "id": 9
+  },
+  {
+    "vinicola": "Scarecrow",
+    "vinho": "Cabernet Sauvignon 2016",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "54 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · Rutherford",
+    "imagem": "https://images.vivino.com/thumbs/pU7uFKR-TAKAOQaf3Hpn2A_pb_x300.png",
+    "descricao": "Um vinho equilibrado e rico, com notas de frutas pretas, taninos firmes e um final longo.",
+    "preco": "R$ 1.800,00",
+    "id": 10
+  },
+  {
+    "vinicola": "E. Guigal",
+    "vinho": "Côte-Rôtie La Mouline 1990",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "54 avaliacoes"
+    },
+    "localizacao": "Franca · Côte-Rôtie",
+    "imagem": "https://images.vivino.com/thumbs/HYVZMFigQ5qXxni7s9SpWw_pb_x300.png",
+    "descricao": "Um vinho frances elegante com notas florais, frutas vermelhas e taninos sedosos.",
+    "preco": "R$ 3.200,00",
+    "id": 11
+  },
+  {
+    "vinicola": "",
+    "vinho": "Chateau D Yquene 2001",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "50 avaliacoes"
+    },
+    "localizacao": "",
+    "imagem": "https://cdn.shoplightspeed.com/shops/660567/files/53936949/660x900x2/chateau-dyquem-2001-chateau-dyquem-sauternes-375ml.jpg",
+    "descricao": "Um vinho doce e sofisticado, com notas de mel, damasco e flores.",
+    "preco": "R$ 2.400,00",
+    "id": 12
+  },
+  {
+    "vinicola": "Domaine Armand Rousseau",
+    "vinho": "Chambertin Grand Cru 1993",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "45 avaliacoes"
+    },
+    "localizacao": "Franca · Chambertin Grand Cru",
+    "imagem": "https://images.vivino.com/thumbs/1XYwrN2-SQqqJlCMSUp3tA_pb_x300.png",
+    "descricao": "Um vinho iconico da Borgonha, com sabores profundos e complexos de frutas vermelhas e especiarias.",
+    "preco": "R$ 4.500,00",
+    "id": 13
+  },
+  {
+    "vinicola": "Catena Zapata",
+    "vinho": "Estiba Reservada 1994",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "44 avaliacoes"
+    },
+    "localizacao": "Argentina · Agrelo",
+    "imagem": "https://images.vivino.com/thumbs/Yt464jw0QS-ugF7ZQEbE2Q_pb_x300.png",
+    "descricao": "Um vinho argentino robusto com notas de frutas escuras, tabaco e taninos firmes.",
+    "preco": "R$ 950,00",
+    "id": 14
+  },
+  {
+    "vinicola": "Bodegas Valduero",
+    "vinho": "Ribera Del Duero 1999",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "44 avaliacoes"
+    },
+    "localizacao": "Espanha · Ribera del Duero",
+    "imagem": "https://images.vivino.com/thumbs/5kJTu3dMQUCEtBy3zIhrKA_pb_x300.png",
+    "descricao": "Um vinho envelhecido e elegante com camadas de frutas secas, couro e especiarias.",
+    "preco": "R$ 1.100,00",
+    "id": 15
+  },
+  {
+    "vinicola": "Brion",
+    "vinho": "Estate Grown Cabernet Sauvignon 2013",
+    "classificacao": {
+      "media": "4.9",
+      "avaliacoes": "44 avaliacoes"
+    },
+    "localizacao": "Estados Unidos · Moon Mountain District",
+    "imagem": "https://images.vivino.com/thumbs/RuufQM3QS8aHbvoUWETFqQ_pb_x600.png",
+    "descricao": "Um Cabernet Sauvignon sofisticado, com sabores complexos de frutas vermelhas e notas terrosas.",
+    "preco": "R$ 1.300,00",
+    "id": 16
+  }
+]

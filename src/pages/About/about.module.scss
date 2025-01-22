@@ -1,0 +1,110 @@
+@use '../../style/variables.scss' as *;
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+}
+
+.hero {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: $font-hover-color;
+}
+
+.hero p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: $font-color;
+}
+
+.mission {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.missionText {
+  margin-bottom: 20px;
+}
+
+.missionText h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: $font-hover-color;
+}
+
+.missionText p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: $font-color;
+}
+
+.values {
+  list-style: none;
+  padding: 0;
+}
+
+.values h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: $font-hover-color;
+}
+
+.values li {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: $font-color;
+}
+
+.why {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.why h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: $font-hover-color;
+}
+
+.why li {
+  margin-bottom: 20px;
+}
+
+.why h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: rgb(172, 55, 75);
+}
+
+.why p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: $font-color;
+}
+
+.sustainability {
+  background: $background-color;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sustainability h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: $font-hover-color;
+}
+
+.sustainability p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: $font-color;
+}

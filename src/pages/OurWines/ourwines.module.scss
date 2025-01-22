@@ -1,0 +1,93 @@
+@use '../../style/variables.scss' as *;
+
+.container {
+  padding: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .title {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h2 {
+      font-size: 2.5rem;
+      color: $font-hover-color;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: $font-color;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+    .wineList {
+      background: $font-hover-color;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      }
+
+      img {
+        height: 250px;
+        object-fit: contain;
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        margin: 1.5rem 1rem;
+        text-align: center;
+        color: $font-color;
+      }
+
+      .wineInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1.5rem;
+        font-size: 1.2rem;
+        color: $font-color;
+
+        span {
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-left: 0.5rem;
+          }
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        margin: 1.5rem;
+        text-align: center;
+        color: $font-color;
+      }
+    }
+  }
+}
+
+.price {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem;
+  color: $font-color;
+  text-align: center;
+}

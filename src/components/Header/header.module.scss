@@ -1,0 +1,44 @@
+@use '../../style/variables.scss' as *;
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  background: $background-color;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.logo {
+  width: 15vh;
+}
+
+.menu {
+  width: 40%;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+
+    li>a {
+      text-decoration: none;
+      font-weight: bold;
+      color: $font-color;
+      transition: color 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        color: $font-hover-color;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
