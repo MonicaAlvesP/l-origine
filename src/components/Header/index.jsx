@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Home } from "../../pages/Home";
 import { About } from "../../pages/About";
@@ -8,15 +9,26 @@ import { Contact } from "../../pages/Contact";
 import LOrigine from '../../assets/LOrigine.png';
 
 import s from './header.module.scss';
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Header = () => {
+
+  const [showMenu, setShowMenu] = useState(false)
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu)
+  }
+
   return (
     <Router>
       <header>
         <section className={s.container}>
           <img src={LOrigine} alt="Logotipo da lorigine" className={s.logo} />
-          <nav className={s.menu}>
-            <ul>
+          <div className={s.hamburger} onClick={toggleMenu}>
+            {showMenu ? <FaTimes /> : <FaBars />}
+          </div>
+          <nav className={`${s.menu} ${showMenu ? s.show : ""}`}>
+            <ul className={s.menu__list}>
               <li>
                 <Link to="/">Inicio</Link>
               </li>
@@ -43,6 +55,6 @@ export const Header = () => {
         <Route path="experience" element={<Experience />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-    </Router>
+    </Router >
   );
 }
