@@ -59,3 +59,24 @@
     color: $font-hover-color;
   }
 }
+
+@media (max-width: 768px) {
+  .experienceItem {
+    flex-direction: column;
+    height: 100%;
+
+    img {
+      height: 30vh;
+      width: 50vw;
+      margin: 2rem 0;
+    }
+  }
+
+  .experienceItem:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .experienceInfo {
+    width: 100%;
+  }
+}

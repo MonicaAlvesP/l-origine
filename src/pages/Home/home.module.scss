@@ -101,3 +101,48 @@
     background-color: $button-hover-color;
   }
 }
+
+@media (max-width: 768px) {
+  .text {
+    width: 100%;
+  }
+
+  .wines {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .left {
+    height: 30vh;
+
+    img {
+      height: 20vh;
+    }
+  }
+
+  .right {
+    height: 30vh;
+
+    img {
+      height: 20vh;
+    }
+  }
+
+  .info {
+    padding: 1rem;
+    margin: 0.5rem;
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  .btnWines {
+    border: solid red;
+    width: 70%;
+  }
+}
