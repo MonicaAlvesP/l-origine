@@ -37,7 +37,6 @@ O layout foi projetado para ser atraente e funcional, inspirado em diferentes si
 2. Abra o diretòrio do porjeto:
 ```
   cd l-origine
-
 ```
 
 3. Instale as dependências com Yarn ou NPM:
